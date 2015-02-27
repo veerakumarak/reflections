@@ -1,0 +1,32 @@
+Q1. - What happens when you initialize a repository? Why do you need to do it?
+A1. - A .git folder is created within the repo. This is done in order to start 
+tracking changes to the repo.
+
+Q2. - How is the staging area different from the working directory and 
+the repository? What value do you think it offers?
+A2. - The staging area is being tracked by git, it is a part of the
+repository. It allows files to be tracked without being committed.
+
+Q3. - How can you use the staging area to make sure you have one 
+commit per logical change?
+A3. - By comparing changes in the staging area to the working
+area and commits.
+
+Q4. - What are some situations when branches would be helpful in 
+keeping your history organized? How would branches help?
+A4. - During version releases and experimentation.
+
+Q5. - How do the diagrams help you visualize the branch structure?
+A5. - By showing the ancestor commits.
+
+Q6. - What is the result of merging two branches together? Why 
+do we represent it in the diagram the way we do?
+A6. - The result is including new features into the master brach
+for example. You represent it in the diagram to make my life 
+easier i suppose.
+
+Q7. - What are the pros and cons of Git’s automatic merging
+vs. always doing merges manually?
+A7. - Auto merge puts a smile on my face, no auto-merge
+allows adds all changes instantly to the required branch
+but it does not allow for review before it does so.
